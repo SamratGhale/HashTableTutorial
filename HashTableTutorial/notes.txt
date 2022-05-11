@@ -1,0 +1,65 @@
+array -> contigiuos memory  246782___________________________
+in c/c++ array is just pointer to the first element
+
+pros:
+- Only takes space for the value
+- access is fast
+
+cons:
+- incertion is expensive, you have to move all elements
+- Cannot alter size at runtime
+
+
+linked list -> a ->  b -> g ->    c ->  d -> e  -> f
+
+pros:
+- Incertion is efficient
+- Takes space for key and value
+- can alter size at runtime
+
+cons: 
+- Access is slow
+
+HashMap
+
+________________________________
+
+Map m = {
+    {'a': "Sarmat"}
+    {'b': "Ishan"}
+    {'c': "SUlav"}
+     key : Value
+};
+
+
+
+printf(m['a']) -> "sarmat";
+
+struct Node{
+    int    id;
+    String name;
+    Node * next;
+};
+
+
+int hashFunction(int id){
+    return id % 100;
+}
+
+
+
+
+
+[200 1_______________150 50 151 ________________________].len == 100
+                      |
+                     50
+                     | 
+
+
+
+
+
+
+
+
+
